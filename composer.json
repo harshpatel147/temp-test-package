@@ -1,0 +1,19 @@
+{
+    "name": "smiley/laravel-adminlte-starter-package",
+    "description": "laravel-adminlte-starter-package = it is a simple package with some comman View Component using AdminLTE Template",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Smiley\\AdminlteStarterPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Harsh",
+            "email": "harsh.microtechos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
