@@ -3,17 +3,26 @@
     "description": "laravel-adminlte-starter-package = it is a simple package with some comman View Component using AdminLTE Template",
     "type": "project",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Smiley\\AdminlteStarterPackage\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Harsh",
             "email": "harsh.microtechos@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "laravel/ui": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Smiley\\AdminlteStarterPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Smiley\\AdminlteStarterPackage\\AdminlteStarterServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
 }
